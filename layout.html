@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Layout</title>
+        <style>
+            header{
+                background-color: hsl(258, 100%, 56%);
+                text-align: center;
+                border: 1px solid black;
+                height: 50px;
+                padding-top: 6px;
+                
+            }
+            footer
+            {
+                background-color: hsl(258, 100%, 56%);
+                text-align: center;
+                margin-top: 70px;
+                border: 1px solid black;
+            }
+            section{
+                height: 400px;
+                display: grid;
+                grid-template-columns: 3fr 7fr 1fr;
+            }
+            figure
+            {
+                height: 100px;
+                width: 100px;
+                border: 2px dotted black;
+            }
+            article
+            {
+                font-size: large;
+                font-weight: bold;
+                background-color: yellow;
+                border: 1px solid gray;
+                width: 200px;
+            }
+
+            nav div
+            {
+                background-color: blue;
+                border: 1px solid black;
+                margin: 10px;
+                width: 100px;
+                margin-left: -30px;
+                border-radius: 5px;
+                padding-left: 3px;
+            }
+            aside
+            {
+                margin-top: 10px;
+                height: 50px;
+                border: 2px dotted black;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header style="height: 30px;">
+            Amazon shopping
+        </header>
+        <section>
+            <nav>
+            <menu>
+                <div>Home</div>
+                <div>Electronic</div>
+                <div>Fashion</div>
+                <div>Mobiles</div>
+            </menu>
+            </nav>
+            <main>
+                <figure>
+                    Upload Image 
+                    <figcaption>Enjoy shopping</figcaption>
+                </figure>
+                <div>Amazon | Happy | Shopping</div>
+                    <article>Sale on 8oct 2023</article>
+                <div>Sale 50% on Electronic items</div>
+            </main>
+            <aside>
+                    ads..
+            </aside>
+        </section>
+        <footer>
+            &copy; copyright 2022;
+        </footer>
+    </body>
+</html>
